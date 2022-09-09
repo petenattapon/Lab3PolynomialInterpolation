@@ -1,6 +1,5 @@
-def newton(xstart):
-    x = xstart
-    # 3 root found. 0.347, -1.879, and 1.532
-    #f = lambda x: x**3 - 3*x +1 
-    #fprime = lambda x: 
-    return x
+def newton(x,xi,yi):
+    #x is a floating number, eg. x=10.23
+    #xi is a tuple of x values eg. xi=(0,2/3,1)
+    #yi is a tuple of y values eg  yi=(1,0.5,0)
+    return x# return a single floating number
